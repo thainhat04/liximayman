@@ -1,0 +1,22 @@
+{
+  "name": "lixi-app",
+  "version": "1.0.0",
+  "description": "Red Envelope Application for Lunar New Year",
+  "private": true,
+  "scripts": {
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "build:all": "cd backend && npm run build && cd ../frontend && npm run build",
+    "start:backend": "cd backend && npm start",
+    "start:frontend": "cd frontend && npm run preview"
+  },
+  "keywords": [
+    "red-envelope",
+    "lunar-new-year",
+    "lixi",
+    "tet"
+  ],
+  "author": "",
+  "license": "MIT"
+}
